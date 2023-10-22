@@ -15,16 +15,16 @@
     <header> 
         <nav class="navbar navbar-expand-lg menucolor navbar-dark fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <div class="logo">
-                        <img src="./assets/img/logocorantioquia2.jpg" alt="imagen no disponible" class="imagen">
-                    </div>
-                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
+                    <a class="navbar-brand" href="#">
+                        <div class="logo">
+                            <img src="./assets/img/logocorantioquia2.jpg" alt="imagen no disponible" class="imagen">
+                        </div>
+                    </a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -45,8 +45,6 @@
                     </button>
                 </form>
             </div>
-            <div class=" barranav">
-                
                 <ul class="navbar-nav">
                     <li class="nav-item me-2">
                         <button class="btn btn-outline-light">
@@ -85,15 +83,47 @@
                         </button>
                     </li>
                 </ul>
-                
-            </div>
         </nav>
     </header>
+
     <main>
-        <section class="banner">
-            <h3>DATOS DE ANALISS CORANTIOQUIA</h3>
-            <button class="btn btn-success">ver mas</button>
-            
+        <section>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active posicionamiento">
+                        <div class="texto">
+                            <h3 class="titulo">Datos de analisis corantioquia</h3>
+                            <button class="btn btn-outline-light">ver mas</button>
+                        </div>
+                        <img src="/assets/img/carrusel4.jpeg" class="d-block img-tamaño" alt="...">
+                    </div>
+                    <div class="carousel-item posicionamiento">
+                        <div class="texto">
+                            <h3 class="titulo">Datos de analisis corantioquia</h3>
+                            <button class="btn btn-outline-light">ver mas</button>
+                        </div>
+                        <img src="/assets/img/carrusel1.jpg" class="d-block img-tamaño" alt="...">
+                    </div>
+                    <div class="carousel-item posicionamiento">
+                        <div class="texto">
+                            <h3 class="titulo">Datos de analisis corantioquia</h3>
+                            <button class="btn btn-outline-light">ver mas</button>
+                        </div>
+                        <img src="/assets/img/carrusel3.jpeg" class="d-block img-tamaño" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+                        
         </section>
 
         <section>
